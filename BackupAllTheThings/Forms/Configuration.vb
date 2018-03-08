@@ -1,5 +1,12 @@
 ﻿Public Class Configuration
 
+	'################## Start Global Variables ##############################
+
+	'################## End Global Variables   ##############################
+
+
+
+
 	Private Sub Configuration_Load(sender As Object, e As EventArgs) Handles Me.Load
 		'TODO: Check for Backup Paths and Load it.
 	End Sub
@@ -27,7 +34,5 @@
 		DoThings.SaveBackupFilePath(BackupPaths)
 
 	End Sub
-
-
 
 End Class

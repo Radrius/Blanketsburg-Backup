@@ -2,6 +2,7 @@
 Imports System.Reflection
 Public Class DoThings
 
+
 	Public Shared Function AddFilePath()
 
 		Try
@@ -24,6 +25,7 @@ Public Class DoThings
 
 		Dim dt As New DataTable
 		Dim Path As String = IO.Path.GetDirectoryName(Assembly.GetExecutingAssembly().CodeBase)
+		Dim AddToSetup As New Setup
 
 		Try
 			dt.TableName = "PathsToBackup"
@@ -35,6 +37,7 @@ Public Class DoThings
 
 			Path = New Uri(Path).LocalPath
 			dt.WriteXml(Path & "\Config\BackPaths.xml", XmlWriteMode.WriteSchema)
+
 
 		Catch ex As Exception
 			'TODO: Log exceptions to SQL server (include computer name)

@@ -18,7 +18,4 @@
   <PathsToBackup>
     <FilePath>C:\</FilePath>
   </PathsToBackup>
-  <PathsToBackup>
-    <FilePath>C:\PerfLogs</FilePath>
-  </PathsToBackup>
 </NewDataSet>

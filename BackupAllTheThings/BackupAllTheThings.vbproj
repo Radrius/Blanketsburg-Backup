@@ -73,6 +73,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\DoThings.vb" />
+    <Compile Include="Classes\Setup.vb" />
     <Compile Include="Forms\Configuration.Designer.vb">
       <DependentUpon>Configuration.vb</DependentUpon>
     </Compile>
