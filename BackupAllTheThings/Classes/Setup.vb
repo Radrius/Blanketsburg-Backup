@@ -12,8 +12,6 @@ Public Class Setup
 	End Property
 
 
-
-
 	Public Shared Sub Startup()
 
 		Dim dt As New DataTable
