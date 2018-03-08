@@ -10,3 +10,15 @@ d:\libraries\documents\visual studio 2017\Projects\BackupAllTheThings\BackupAllT
 d:\libraries\documents\visual studio 2017\Projects\BackupAllTheThings\BackupAllTheThings\obj\Debug\BackupAllTheThings.exe
 d:\libraries\documents\visual studio 2017\Projects\BackupAllTheThings\BackupAllTheThings\obj\Debug\BackupAllTheThings.xml
 d:\libraries\documents\visual studio 2017\Projects\BackupAllTheThings\BackupAllTheThings\obj\Debug\BackupAllTheThings.pdb
+D:\Libraries\Documents\Visual Studio 2017\Projects\BackupAllTheThings\Blanketsburg-Backup\BackupAllTheThings\bin\Debug\BackupAllTheThings.exe.config
+D:\Libraries\Documents\Visual Studio 2017\Projects\BackupAllTheThings\Blanketsburg-Backup\BackupAllTheThings\bin\Debug\BackupAllTheThings.exe
+D:\Libraries\Documents\Visual Studio 2017\Projects\BackupAllTheThings\Blanketsburg-Backup\BackupAllTheThings\bin\Debug\BackupAllTheThings.pdb
+D:\Libraries\Documents\Visual Studio 2017\Projects\BackupAllTheThings\Blanketsburg-Backup\BackupAllTheThings\bin\Debug\BackupAllTheThings.xml
+D:\Libraries\Documents\Visual Studio 2017\Projects\BackupAllTheThings\Blanketsburg-Backup\BackupAllTheThings\obj\Debug\BackupAllTheThings.vbprojResolveAssemblyReference.cache
+D:\Libraries\Documents\Visual Studio 2017\Projects\BackupAllTheThings\Blanketsburg-Backup\BackupAllTheThings\obj\Debug\BackupAllTheThings.Configuration.resources
+D:\Libraries\Documents\Visual Studio 2017\Projects\BackupAllTheThings\Blanketsburg-Backup\BackupAllTheThings\obj\Debug\BackupAllTheThings.MainForm.resources
+D:\Libraries\Documents\Visual Studio 2017\Projects\BackupAllTheThings\Blanketsburg-Backup\BackupAllTheThings\obj\Debug\BackupAllTheThings.Resources.resources
+D:\Libraries\Documents\Visual Studio 2017\Projects\BackupAllTheThings\Blanketsburg-Backup\BackupAllTheThings\obj\Debug\BackupAllTheThings.vbproj.GenerateResource.Cache
+D:\Libraries\Documents\Visual Studio 2017\Projects\BackupAllTheThings\Blanketsburg-Backup\BackupAllTheThings\obj\Debug\BackupAllTheThings.exe
+D:\Libraries\Documents\Visual Studio 2017\Projects\BackupAllTheThings\Blanketsburg-Backup\BackupAllTheThings\obj\Debug\BackupAllTheThings.xml
+D:\Libraries\Documents\Visual Studio 2017\Projects\BackupAllTheThings\Blanketsburg-Backup\BackupAllTheThings\obj\Debug\BackupAllTheThings.pdb
