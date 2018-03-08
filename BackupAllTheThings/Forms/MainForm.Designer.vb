@@ -49,14 +49,14 @@ Partial Class MainForm
 		Me.ConfigurationToolStripMenuItem.Size = New System.Drawing.Size(93, 20)
 		Me.ConfigurationToolStripMenuItem.Text = "Configuration"
 		'
-		'Form1
+		'MainForm
 		'
 		Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
 		Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
 		Me.ClientSize = New System.Drawing.Size(806, 463)
 		Me.Controls.Add(Me.MenuStrip1)
 		Me.MainMenuStrip = Me.MenuStrip1
-		Me.Name = "Form1"
+		Me.Name = "MainForm"
 		Me.Text = "Form1"
 		Me.MenuStrip1.ResumeLayout(False)
 		Me.MenuStrip1.PerformLayout()

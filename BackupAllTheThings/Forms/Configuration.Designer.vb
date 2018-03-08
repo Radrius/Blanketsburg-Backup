@@ -22,41 +22,94 @@ Partial Class Configuration
 	'Do not modify it using the code editor.
 	<System.Diagnostics.DebuggerStepThrough()> _
 	Private Sub InitializeComponent()
-		Me.ListBox1 = New System.Windows.Forms.ListBox()
+		Me.lstbx_FilePathToBackup = New System.Windows.Forms.ListBox()
 		Me.Label1 = New System.Windows.Forms.Label()
+		Me.btn_Add = New System.Windows.Forms.Button()
+		Me.TabControl1 = New System.Windows.Forms.TabControl()
+		Me.TabPage1 = New System.Windows.Forms.TabPage()
+		Me.TabPage2 = New System.Windows.Forms.TabPage()
+		Me.TabControl1.SuspendLayout()
+		Me.TabPage1.SuspendLayout()
 		Me.SuspendLayout()
 		'
-		'ListBox1
+		'lstbx_FilePathToBackup
 		'
-		Me.ListBox1.FormattingEnabled = True
-		Me.ListBox1.Location = New System.Drawing.Point(12, 43)
-		Me.ListBox1.Name = "ListBox1"
-		Me.ListBox1.Size = New System.Drawing.Size(224, 303)
-		Me.ListBox1.TabIndex = 0
+		Me.lstbx_FilePathToBackup.FormattingEnabled = True
+		Me.lstbx_FilePathToBackup.Location = New System.Drawing.Point(6, 19)
+		Me.lstbx_FilePathToBackup.Name = "lstbx_FilePathToBackup"
+		Me.lstbx_FilePathToBackup.Size = New System.Drawing.Size(224, 303)
+		Me.lstbx_FilePathToBackup.TabIndex = 0
 		'
 		'Label1
 		'
 		Me.Label1.AutoSize = True
-		Me.Label1.Location = New System.Drawing.Point(12, 27)
+		Me.Label1.Location = New System.Drawing.Point(6, 3)
 		Me.Label1.Name = "Label1"
-		Me.Label1.Size = New System.Drawing.Size(108, 13)
+		Me.Label1.Size = New System.Drawing.Size(104, 13)
 		Me.Label1.TabIndex = 1
-		Me.Label1.Text = "Locations to Backup:"
+		Me.Label1.Text = "File Path To Backup"
+		'
+		'btn_Add
+		'
+		Me.btn_Add.Location = New System.Drawing.Point(9, 328)
+		Me.btn_Add.Name = "btn_Add"
+		Me.btn_Add.Size = New System.Drawing.Size(75, 23)
+		Me.btn_Add.TabIndex = 2
+		Me.btn_Add.Text = "Add"
+		Me.btn_Add.UseVisualStyleBackColor = True
+		'
+		'TabControl1
+		'
+		Me.TabControl1.Controls.Add(Me.TabPage1)
+		Me.TabControl1.Controls.Add(Me.TabPage2)
+		Me.TabControl1.Location = New System.Drawing.Point(7, 6)
+		Me.TabControl1.Name = "TabControl1"
+		Me.TabControl1.SelectedIndex = 0
+		Me.TabControl1.Size = New System.Drawing.Size(564, 461)
+		Me.TabControl1.TabIndex = 3
+		'
+		'TabPage1
+		'
+		Me.TabPage1.Controls.Add(Me.Label1)
+		Me.TabPage1.Controls.Add(Me.btn_Add)
+		Me.TabPage1.Controls.Add(Me.lstbx_FilePathToBackup)
+		Me.TabPage1.Location = New System.Drawing.Point(4, 22)
+		Me.TabPage1.Name = "TabPage1"
+		Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
+		Me.TabPage1.Size = New System.Drawing.Size(556, 435)
+		Me.TabPage1.TabIndex = 0
+		Me.TabPage1.Text = "TabPage1"
+		Me.TabPage1.UseVisualStyleBackColor = True
+		'
+		'TabPage2
+		'
+		Me.TabPage2.Location = New System.Drawing.Point(4, 22)
+		Me.TabPage2.Name = "TabPage2"
+		Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
+		Me.TabPage2.Size = New System.Drawing.Size(279, 405)
+		Me.TabPage2.TabIndex = 1
+		Me.TabPage2.Text = "TabPage2"
+		Me.TabPage2.UseVisualStyleBackColor = True
 		'
 		'Configuration
 		'
 		Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
 		Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
 		Me.ClientSize = New System.Drawing.Size(583, 479)
-		Me.Controls.Add(Me.Label1)
-		Me.Controls.Add(Me.ListBox1)
+		Me.Controls.Add(Me.TabControl1)
 		Me.Name = "Configuration"
 		Me.Text = "Configuration"
+		Me.TabControl1.ResumeLayout(False)
+		Me.TabPage1.ResumeLayout(False)
+		Me.TabPage1.PerformLayout()
 		Me.ResumeLayout(False)
-		Me.PerformLayout()
 
 	End Sub
 
-	Friend WithEvents ListBox1 As ListBox
+	Friend WithEvents lstbx_FilePathToBackup As ListBox
 	Friend WithEvents Label1 As Label
+	Friend WithEvents btn_Add As Button
+	Friend WithEvents TabControl1 As TabControl
+	Friend WithEvents TabPage1 As TabPage
+	Friend WithEvents TabPage2 As TabPage
 End Class
