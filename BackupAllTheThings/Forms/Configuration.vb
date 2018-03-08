@@ -1,5 +1,9 @@
 ﻿Public Class Configuration
 
+	Private Sub Configuration_Load(sender As Object, e As EventArgs) Handles Me.Load
+		'TODO: Check for Backup Paths and Load it.
+	End Sub
+
 
 
 
@@ -16,14 +20,14 @@
 			MessageBox.Show("File path cannot be nothing", "Information")
 		End If
 
-		'TODO: Save File Location to XML or SQL...Still thinking about it.
 		BackupPaths = New List(Of String)
 		For i As Integer = 0 To lstbx_FilePathToBackup.Items.Count - 1
 			BackupPaths.Add(lstbx_FilePathToBackup.Items.Item(i).ToString())
 		Next
-
 		DoThings.SaveBackupFilePath(BackupPaths)
 
 	End Sub
+
+
 
 End Class
