@@ -1,4 +1,5 @@
-﻿Public Class DoThings
+﻿Imports System.Xml
+Public Class DoThings
 
 	Public Shared Function AddFilePath()
 
@@ -19,6 +20,15 @@
 	End Function
 
 	Public Shared Sub SaveBackupFilePath(ByVal FilePath As List(Of String))
+
+		Dim dt As New DataTable
+
+		dt.TableName = "PathsToBackup"
+		dt.Columns.Add("FilePath")
+
+		For Each fp In FilePath
+			dt.Rows.Add(fp)
+		Next
 
 
 

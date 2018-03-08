@@ -24,7 +24,6 @@
 
 		DoThings.SaveBackupFilePath(BackupPaths)
 
-
 	End Sub
 
 End Class
