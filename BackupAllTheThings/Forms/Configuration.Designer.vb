@@ -28,6 +28,7 @@ Partial Class Configuration
 		Me.TabControl1 = New System.Windows.Forms.TabControl()
 		Me.TabPage1 = New System.Windows.Forms.TabPage()
 		Me.TabPage2 = New System.Windows.Forms.TabPage()
+		Me.btn_RemoveFilePath = New System.Windows.Forms.Button()
 		Me.TabControl1.SuspendLayout()
 		Me.TabPage1.SuspendLayout()
 		Me.SuspendLayout()
@@ -71,6 +72,7 @@ Partial Class Configuration
 		'TabPage1
 		'
 		Me.TabPage1.BackColor = System.Drawing.SystemColors.Control
+		Me.TabPage1.Controls.Add(Me.btn_RemoveFilePath)
 		Me.TabPage1.Controls.Add(Me.Label1)
 		Me.TabPage1.Controls.Add(Me.btn_Add)
 		Me.TabPage1.Controls.Add(Me.lstbx_FilePathToBackup)
@@ -90,6 +92,15 @@ Partial Class Configuration
 		Me.TabPage2.TabIndex = 1
 		Me.TabPage2.Text = "TabPage2"
 		Me.TabPage2.UseVisualStyleBackColor = True
+		'
+		'btn_RemoveFilePath
+		'
+		Me.btn_RemoveFilePath.Location = New System.Drawing.Point(90, 328)
+		Me.btn_RemoveFilePath.Name = "btn_RemoveFilePath"
+		Me.btn_RemoveFilePath.Size = New System.Drawing.Size(75, 23)
+		Me.btn_RemoveFilePath.TabIndex = 3
+		Me.btn_RemoveFilePath.Text = "Remove"
+		Me.btn_RemoveFilePath.UseVisualStyleBackColor = True
 		'
 		'Configuration
 		'
@@ -112,4 +123,5 @@ Partial Class Configuration
 	Friend WithEvents TabControl1 As TabControl
 	Friend WithEvents TabPage1 As TabPage
 	Friend WithEvents TabPage2 As TabPage
+	Friend WithEvents btn_RemoveFilePath As Button
 End Class

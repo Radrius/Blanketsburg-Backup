@@ -21,6 +21,31 @@ Public Class DoThings
 
 	End Function
 
+	Public Shared Function RemoveFilePath(ByVal CurrentBackupPaths As DataTable, ByVal PathToRemove As Integer)
+
+
+		Dim PathToRemovedt As New DataTable
+		PathToRemovedt.Columns.Add("FilePath")
+
+		Try
+
+			For Each r As DataRow In CurrentBackupPaths.Rows
+				If CurrentBackupPaths.Rows.IndexOf(r) <> PathToRemove Then
+					PathToRemovedt.Rows.Add(r.Item("FilePath"))
+				End If
+			Next
+
+
+		Catch ex As Exception
+			Logging.WriteException(ex.ToString())
+		End Try
+
+
+		Return PathToRemovedt
+
+
+	End Function
+
 	Public Shared Sub SaveBackupFilePath(ByVal FilePath As List(Of String))
 
 		Dim dt As New DataTable
@@ -37,8 +62,6 @@ Public Class DoThings
 
 			Path = New Uri(Path).LocalPath
 			dt.WriteXml(Path & "\Config\BackPaths.xml", XmlWriteMode.WriteSchema)
-
-
 		Catch ex As Exception
 			Logging.WriteException(ex.ToString())
 		End Try

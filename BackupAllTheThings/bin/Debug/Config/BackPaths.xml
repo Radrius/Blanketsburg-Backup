@@ -18,4 +18,7 @@
   <PathsToBackup>
     <FilePath>C:\</FilePath>
   </PathsToBackup>
+  <PathsToBackup>
+    <FilePath>D:\Libraries\Documents</FilePath>
+  </PathsToBackup>
 </NewDataSet>

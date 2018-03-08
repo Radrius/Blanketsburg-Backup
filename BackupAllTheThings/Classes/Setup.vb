@@ -1,5 +1,6 @@
 ﻿Imports System.Xml
 Imports System.Reflection
+
 Public Class Setup
 
 
@@ -18,10 +19,14 @@ Public Class Setup
 		Dim dt As New DataTable
 		Dim xmlFile As XmlReader
 		Dim Path As String = IO.Path.GetDirectoryName(Assembly.GetExecutingAssembly().CodeBase)
+
 		Path = New Uri(Path).LocalPath
+		xmlFile = XmlReader.Create(Path & "\Config\BackPaths.xml", New XmlReaderSettings())
 		Try
-			xmlFile = XmlReader.Create(Path & "\Config\BackPaths.xml", New XmlReaderSettings())
-			dt.ReadXml(xmlFile)
+
+			Using TryCast(xmlFile, IDisposable)
+				dt.ReadXml(xmlFile)
+			End Using
 
 			For Each r As DataRow In dt.Rows
 				_BackupPath.Add(r.Item("FilePath"))
