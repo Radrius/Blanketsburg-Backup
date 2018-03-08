@@ -8,7 +8,13 @@
 
 
 	Private Sub Configuration_Load(sender As Object, e As EventArgs) Handles Me.Load
-		'TODO: Check for Backup Paths and Load it.
+
+		If Setup.BackupFilePath.Count > 0 Then
+			For i As Integer = 0 To Setup.BackupFilePath.Count - 1
+				lstbx_FilePathToBackup.Items.Add(Setup.BackupFilePath.Item(i))
+			Next
+		End If
+
 	End Sub
 
 

@@ -70,6 +70,7 @@ Partial Class Configuration
 		'
 		'TabPage1
 		'
+		Me.TabPage1.BackColor = System.Drawing.SystemColors.Control
 		Me.TabPage1.Controls.Add(Me.Label1)
 		Me.TabPage1.Controls.Add(Me.btn_Add)
 		Me.TabPage1.Controls.Add(Me.lstbx_FilePathToBackup)
@@ -79,14 +80,13 @@ Partial Class Configuration
 		Me.TabPage1.Size = New System.Drawing.Size(556, 435)
 		Me.TabPage1.TabIndex = 0
 		Me.TabPage1.Text = "TabPage1"
-		Me.TabPage1.UseVisualStyleBackColor = True
 		'
 		'TabPage2
 		'
 		Me.TabPage2.Location = New System.Drawing.Point(4, 22)
 		Me.TabPage2.Name = "TabPage2"
 		Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
-		Me.TabPage2.Size = New System.Drawing.Size(279, 405)
+		Me.TabPage2.Size = New System.Drawing.Size(556, 435)
 		Me.TabPage2.TabIndex = 1
 		Me.TabPage2.Text = "TabPage2"
 		Me.TabPage2.UseVisualStyleBackColor = True
