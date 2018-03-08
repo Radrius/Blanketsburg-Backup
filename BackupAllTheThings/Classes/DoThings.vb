@@ -40,7 +40,7 @@ Public Class DoThings
 
 
 		Catch ex As Exception
-			'TODO: Log exceptions to SQL server (include computer name)
+			Logging.WriteException(ex.ToString())
 		End Try
 
 	End Sub

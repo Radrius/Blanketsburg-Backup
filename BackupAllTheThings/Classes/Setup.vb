@@ -19,13 +19,16 @@ Public Class Setup
 		Dim xmlFile As XmlReader
 		Dim Path As String = IO.Path.GetDirectoryName(Assembly.GetExecutingAssembly().CodeBase)
 		Path = New Uri(Path).LocalPath
+		Try
+			xmlFile = XmlReader.Create(Path & "\Config\BackPaths.xml", New XmlReaderSettings())
+			dt.ReadXml(xmlFile)
 
-		xmlFile = XmlReader.Create(Path & "\Config\BackPaths.xml", New XmlReaderSettings())
-		dt.ReadXml(xmlFile)
-
-		For Each r As DataRow In dt.Rows
-			_BackupPath.Add(r.Item("FilePath"))
-		Next
+			For Each r As DataRow In dt.Rows
+				_BackupPath.Add(r.Item("FilePath"))
+			Next
+		Catch ex As Exception
+			Logging.WriteException(ex.ToString())
+		End Try
 
 	End Sub
 
