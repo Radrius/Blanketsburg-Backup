@@ -1,0 +1,12 @@
+d:\libraries\documents\visual studio 2017\Projects\BackupAllTheThings\BackupAllTheThings\bin\Debug\BackupAllTheThings.exe.config
+d:\libraries\documents\visual studio 2017\Projects\BackupAllTheThings\BackupAllTheThings\bin\Debug\BackupAllTheThings.exe
+d:\libraries\documents\visual studio 2017\Projects\BackupAllTheThings\BackupAllTheThings\bin\Debug\BackupAllTheThings.pdb
+d:\libraries\documents\visual studio 2017\Projects\BackupAllTheThings\BackupAllTheThings\bin\Debug\BackupAllTheThings.xml
+d:\libraries\documents\visual studio 2017\Projects\BackupAllTheThings\BackupAllTheThings\obj\Debug\BackupAllTheThings.vbprojResolveAssemblyReference.cache
+d:\libraries\documents\visual studio 2017\Projects\BackupAllTheThings\BackupAllTheThings\obj\Debug\BackupAllTheThings.Configuration.resources
+d:\libraries\documents\visual studio 2017\Projects\BackupAllTheThings\BackupAllTheThings\obj\Debug\BackupAllTheThings.MainForm.resources
+d:\libraries\documents\visual studio 2017\Projects\BackupAllTheThings\BackupAllTheThings\obj\Debug\BackupAllTheThings.Resources.resources
+d:\libraries\documents\visual studio 2017\Projects\BackupAllTheThings\BackupAllTheThings\obj\Debug\BackupAllTheThings.vbproj.GenerateResource.Cache
+d:\libraries\documents\visual studio 2017\Projects\BackupAllTheThings\BackupAllTheThings\obj\Debug\BackupAllTheThings.exe
+d:\libraries\documents\visual studio 2017\Projects\BackupAllTheThings\BackupAllTheThings\obj\Debug\BackupAllTheThings.xml
+d:\libraries\documents\visual studio 2017\Projects\BackupAllTheThings\BackupAllTheThings\obj\Debug\BackupAllTheThings.pdb
